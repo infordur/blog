@@ -1,0 +1,476 @@
+*{
+	font-family: Helvetica;
+}
+
+/*Menu de navegación*/
+
+#logo{
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#logo > h1{
+	display: inline-block;
+	margin-top: 30px;
+	padding-left: 10px;
+	vertical-align: top;
+	color: #A31621;
+}
+
+nav{
+	width: 100%;
+	margin: 0px;
+	background-color: #222222;
+}
+
+nav ul{
+	background-color: #222222;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	display: block;
+	border-bottom: 2px solid black;
+	box-shadow: 10px 10px 5px #999999;
+	margin-left: 25px;
+}
+
+nav ul li{
+	display: inline-block;
+	text-align: center;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 20px;
+	
+	display: block;
+}
+
+#inicio{
+	background-color: #333333;
+	border-bottom: 3px solid blue;
+}
+#juego{
+	background-color: #333333;
+	border-bottom: 3px solid green;
+}
+#consolas{
+	background-color: #333333;
+	border-bottom: 3px solid red;
+}
+#contacto{
+	background-color: #333333;
+	border-bottom: 3px solid orange;
+}
+#inicio:hover{
+	background-color: blue;
+}
+
+#juego:hover{
+	background-color: green;
+}
+
+#consolas:hover{
+	background-color: red;
+}
+
+#contacto:hover{
+	background-color: orange;
+}
+
+nav ul li a img{
+	margin: 0 auto;
+	padding-top: 5px;
+	display:block;
+	height:50px;
+	width: 50px;
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+	-o-filter: invert(100%);
+	filter: invert(100%);
+
+
+}
+
+nav ul li:hover{
+	background-color: #FCF7F8;
+}
+
+/*Body*/
+main{
+	width: 70%;
+	display:inline-block;
+	margin-left: 15px;
+}
+
+body{
+	background-color: #FCF7F8;
+}
+
+main>section{
+	margin: 20px;
+	*width: 70%;
+	*border: 1px solid black;
+	display: inline-block;
+}
+
+main>section>h2{
+	background-color: #A31621;
+	padding: 10px 0;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+
+main>section>article>header,footer{
+	background-color: #333333 ;
+	border-radius: 0px 0px 10px 15px;
+}
+
+article{
+	box-shadow: 10px 10px 5px #999999;
+	border-radius: 16px;
+	margin-bottom: 35px;
+}
+
+article h1,h2,h3,h4{
+	padding-left: 10px;
+	color: white;
+	margin: 0px;
+	*border-radius: 10px 10px 0px 0px;
+}
+
+article>h2{
+	background-color: #333333;
+	border-radius: 10px;
+	padding: 15px 0px 15px 15px;
+}
+
+article p{
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	vertical-align: middle;
+	text-align: justify;
+	margin-left: 25px;
+}
+
+#guitarHero{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/guitarHero.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+#minecraft{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/minecraft.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform:translate(0px, 40px);
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+#fallout{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/fallout.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform:translate(0px, 40px);
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+ /*Aside*/
+aside{
+	width:20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+aside ul{
+	text-align: center;
+	display: inline-block;
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px;
+}
+
+aside ul li{
+	display: inline-block;
+	background: white;
+	margin: 0px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+aside ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+aside .redesSociales h4, .sobreMi h4{
+	background-color: #227BB3;
+	padding: 10px;
+}
+
+aside .ultimosComentarios h4{
+	background-color: #227BB3;
+	padding: 10px;
+}
+
+aside .ultimosComentarios p{
+	width: 60%;
+	display: inline-block;
+}
+
+aside .ultimosComentarios canvas{
+	width: 20%;
+	display: inline-block;
+}
+
+#imagenGithub{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/gitHubGrande.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	animation: 2s bote 3;
+}
+#twitterGrande{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/twitterGrande.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+#facebookGrande{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/facebookGrande.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#linkedinGrande{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/linkedinGrande.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+@keyframes bote{
+	20%, 50%, 80% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  65% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+/*Footer*/
+
+#twitter{
+	height: 35px;
+	width: 35px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color:white;
+	border-radius: 6px;
+	background-image: url("../img/twitter.png");
+	transition: 2s;
+}
+
+#facebook{
+	height: 35px;
+	width: 35px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 6px;
+	background-color:white;
+	background-image: url("../img/facebook.png");
+	transition: 2s;
+}
+
+#linkedin{
+	height: 35px;
+	width: 35px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 6px;
+	background-color:white;
+	background-image: url("../img/linkedin.png");
+	transition: 2s;
+}
+
+
+#facebook:hover{
+	transform: translate(0px, -20px);
+	background-color:white;
+}
+#twitter:hover{
+	transform: translate(0px, -20px);
+	background-color:#227BB3;
+}
+#linkedin:hover{
+	transform: translate(0px, -20px);
+	background-color:#006DA6;
+}
+
+
+footer .footerIzquierda{
+	color: #CED3DC;
+	display: inline;
+}
+
+article footer .footerIzquierda p:hover{
+	color: white;
+}
+
+footer .footerIzquierda p{
+	padding: 0px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+footer .footerRedesSociales{
+	*display: inline-block;
+	vertical-align: middle;
+	float: right;
+	margin-right: 10px;
+	
+}
+
+footer ul{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	display: block;
+}
+
+footer ul li{
+	display: inline-block;
+	*background: white;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px;
+}
+
+footer ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+aside .ultimosComentarios{
+	margin-top: 20px;
+}
+
+aside .ultimosComentarios p{
+	padding-left: 10px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+
+#fotoSobreMi{
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("../img/user.jpg");
+}
+
+aside .sobreMi p{
+	padding-left: 10px;
+	text-align: justify;
+}
+
+hr{
+	width: 78%;
+}
+
+footer h5{
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+/*Canvas*/
+canvas{
+	border:0;
+	display: inline-block;
+}
+
+
+/*Contacto*/
+
+#formContacto{
+	margin-top: 30px;
+	text-align: center;
+	width: 90%;
+	background: linear-gradient(#FCF7F8,#222222);
+}
+
+input,textarea{
+	width: 170px;
+	font-size: 18px;
+	border-radius: 15px;
+	margin: 10px;
+	padding:5px;
+	-webkit-transition: width 1s ease;
+	-moz-transition: width 1s ease;
+	-o-transition: width 1s ease;
+	-ms-transition: width 1s ease;
+	transition: width 1s ease;
+}
+
+input:focus{
+	width: 200px;
+}
+
+textarea:focus{
+	width: 400px;
+}
+
+input[required]{
+	border-color: green;
+	box-shadow: 0px 0px 5px green;
+}
+
+input:invalid{
+	border-color: red;
+	box-shadow: 0px 0px 20px red;
+	border-radius: 0px 5px;
+}
