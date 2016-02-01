@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="./css/normalize.css" type="text/css" rel="stylesheet">
+	<link href="./css/formulario.css" type="text/css" rel="stylesheet" media="screen">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<title>Casas Rurales</title>
+</head>
+<body>
+	<header>
+		<div class="cabecera">
+			<a class="logo" html="./index.html"><img src="./img/logo.png"><h3>RuralTrip</h3></a>
+			<a class="iconoMenu" href="#menu"><img src="./img/ic_reorder_black_24dp_2x.png" alt="Menu"></a>
+		</div>
+		<nav id="menu">
+			<ul>
+				<a href="./index.html"><li>Inicio</li></a>
+				<a href="./casas.html"><li>Casas</li></a>
+				<a href="./Registro.html"><li>Registrarse</li></a>
+			</ul>
+		</nav>
+
+		<nav class="menuResolucionAlta">
+			<ul>
+				<a href="./index.html"><li>Inicio</li></a>
+				<a href="./casas.html"><li>Casas</li></a>
+				<a href="./Registro.html"><li>Registrarse</li></a>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="formulario">
+			<h2>Alquiler</h2>
+			<label>Nombre</label><input type="text" name="nombre" placeholder="Nombre" required>
+			<label>Apellidos</label><input type="text" name="apellidos" placeholder="Apellidos" required>
+			<label>Fecha Nacimiento</label><input type="date" name="fechaN" placeholder="dd/mm/yyyy" required>
+			<label>Dirección</label><input type="text" name="direccion" placeholder="Dirección" required>
+			<label>Telefono</label><input type="tel" name="telefono" placeholder="Telefono" required>
+			<label>e-mail</label><input type="text" name="email" placeholder="Correo electrónico" required>
+			<input type="button" name="enviar" value="enviar">
+		</div>
+
+	</main>
+	
+</body>
+</html>
